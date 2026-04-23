@@ -1,0 +1,47 @@
+{
+    "name": "horde/otp",
+    "description": "Horde RFC 4226 HOTP and RFC 6238 TOTP Library",
+    "type": "library",
+    "homepage": "http://www.horde.org/libraries/Horde_Otp",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Ralf Lang",
+            "email": "ralf.lang@ralf-lang.de",
+            "role": "maintainer"
+        }
+    ],
+    "keywords": [
+        "rfc4226",
+        "rfc6238",
+        "hotp",
+        "totp",
+        "otp",
+        "2fa"
+    ],
+    "repositories": [],
+    "require": {
+        "php": "^8.1",
+        "ext-hash": "*"
+    },
+    "require-dev": {},
+    "suggest": {},
+    "autoload": {
+        "psr-4": {
+            "Horde\\Otp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Horde\\Otp\\Test\\": "test/"
+        }
+    },
+    "config": {
+        "allow-plugins": {}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-FRAMEWORK_6_0": "1.x-dev"
+        }
+    }
+}
