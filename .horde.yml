@@ -9,10 +9,10 @@ description: >-
 list: horde
 homepage: http://www.horde.org/libraries/Horde_Otp
 version:
-  release: 1.0.0alpha1
+  release: 1.0.0
   api: 1.0.0alpha1
 state:
-  release: alpha
+  release:
   api: alpha
 license:
   identifier: LGPL-2.1
@@ -39,4 +39,4 @@ keywords:
 vendor: horde
 quality:
   phpstan:
-    level: 5
+    level: 6

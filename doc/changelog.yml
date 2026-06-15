@@ -1,4 +1,15 @@
 ---
+1.0.0:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2026-06-15
+  license:
+    identifier: LGPL-2.1
+    uri: https://spdx.org/licenses/LGPL-2.1.html
+  notes: |-
+    chore: gitignore entries
 1.0.0alpha1:
   api: 1.0.0alpha1
   state:
